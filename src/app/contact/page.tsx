@@ -77,7 +77,7 @@ const Contact = () => {
                 className="appearance-none block w-full text-slate-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-slate-700"
                 id="grid-first-name"
                 type="text"
-                placeholder="Jane"
+                placeholder=""
               />
               <p className="text-gray-600 text-xs italic">
                 Please fill out this field.
@@ -94,7 +94,7 @@ const Contact = () => {
                 className="appearance-none block w-full text-slate-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-slate-700 focus:border-gray-500"
                 id="grid-last-name"
                 type="text"
-                placeholder="Doe"
+                placeholder=""
               />
             </div>
           </div>
