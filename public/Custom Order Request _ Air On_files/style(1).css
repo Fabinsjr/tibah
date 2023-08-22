@@ -1,0 +1,500 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.form-control{
+    background-color:transparent;
+}
+body{
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	margin:0;
+	line-height: 1;
+	color:#000000;
+}
+td, div, h1, h2, h3, p, input, form{
+	margin:0;
+	padding:0;
+}
+
+img{
+	padding:0;
+	margin:0;
+	border:none;
+	max-width:100%;
+}
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+a:hover{
+	transition:all ease-in-out 0.2s;
+}
+
+
+/*=-=-=-=-=-=-==-=-=-main-wrapper=-=-=-=-=-=-=-=-*/
+.logo img{
+	width: 100%;
+}
+.form-control {
+    border: 0 !important;
+    border-bottom: 1px solid !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.custm h2{
+	font-weight:700;
+	    color: #591628;
+}
+.header {
+    padding: 15px 0;
+    border-bottom: 5px solid #2c5c95;
+	    box-shadow: 0 2px 2px #ccc;
+}
+.frm-in h2 span {
+    background-color: #2b5c97;
+    padding: 3px 10px;
+    color: #fff;
+}
+.frm-in h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 21px;
+}
+.bcd {
+    border-bottom: 5px solid #ccc;
+    padding: 0 0 15px;
+}
+.frm-in .form-inline .form-control{
+	max-width: 120px;
+}
+.form-group.ex .form-control {
+    max-width: 70px;
+}
+.frm-in .form-group {
+    margin-bottom: 10px !important;
+	position:relative;
+}
+input.form-control:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 60px;
+    color: red;
+    background-color: red;
+}
+span.a {
+    position: absolute;
+    bottom: -20px;
+    left: 68px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+span.b {
+    position: absolute;
+           bottom: -18px;
+    right: 178px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+span.c {
+    position: absolute;
+    bottom: -18px;
+    left: 75px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+span.d {
+    position: absolute;
+       bottom: -18px;
+    right: 100px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+span.e {
+    position: absolute;
+    bottom: -17px;
+    right: 76px;
+	text-transform:uppercase;
+}
+
+.frm-in h3 {
+    color: #2b5c97;
+    text-transform: uppercase;
+	font-weight:700;
+}
+label.radio-inline {
+    color: #333;
+}
+.frm-in img {
+    max-width: 310px;
+	width: 100%;
+}
+.form-group.yj .form-control {
+    max-width: 60px;
+}
+.yj span.a{
+	left:63px;
+}
+.yj span.b {
+
+    right: 183px;
+}
+.yj span.e{
+	right:102px;
+}
+span.z {
+    position: absolute;
+    bottom: -17px;
+    right: 23px;
+}
+.yj.gn span.d {
+    right: 73px;
+}
+.yj.gn span.b {
+    right: 149px;
+}
+.frm-in.sm h3 {
+    font-size: 19px;
+}
+.frm-in.sm .form-control {
+    max-width: 80px;
+}
+.ex.smn .form-control {
+    max-width: 52px;
+}
+.smn span.a{
+	left:53px;
+}
+.smn span.b {
+    right: 116px;
+}
+.smn span.e {
+    right: 61px;
+}
+.text-center.jh {
+    text-transform: uppercase;
+}
+.jh p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.bs.yj span.b {
+    left: 140px;
+}
+.bs.yj span.e {
+    right: 130px;
+}
+.bs span.z {
+    right: 54px;
+}
+
+.fd.form-group.ex .form-control {
+    max-width: 65px;
+}
+.fd span.a {
+    left: 62px;
+}
+.fd span.b{
+	    right: 195px;
+}
+.fd span.e{
+	right:46px;
+}
+.chl.form-group.ex .form-control{
+	max-width:40px;
+}
+.chl span.a{
+	left:14px;
+}
+.chl span.b {
+    left: 71px;
+}
+
+.chl span.e {
+    left: 134px ;
+}
+.lo, .mo, .bt, .gu .f{
+	position:absolute;
+}
+span.lo {
+    bottom: -16px;
+    right: 134px;
+}
+span.mo {
+    bottom: -16px;
+    right: 72px;
+}
+span.bt {
+    right: 14px;
+    bottom: -16px;
+}
+.form-group.gu .form-control {
+    max-width: 55px;
+}
+.gu span.c{
+	left:55px;
+}
+.gu span.d{
+	right:144px;
+}
+.gu span.f {
+    bottom: -16px;
+    right: 70px;
+}
+.form-group.jy .form-control {
+    max-width: 85px;
+}
+
+span.rgh {
+    position: absolute;
+    bottom: -17px;
+    right: 157px;
+}
+span.lft {
+    position: absolute;
+    bottom: -16px;
+    right: 30px;
+}
+.ku span.rgh {
+    position: absolute;
+    bottom: -17px;
+    right: 148px;
+    font-size: 12px;
+}
+.form-group.fck .form-control {
+    max-width: 82px;
+}
+.form-group.gr .form-control {
+    max-width: 45px;
+}
+.kh span.b {
+    right:31px;
+}
+span.dh {
+    position: absolute;
+    bottom: -18px;
+    left: 35px;
+}
+span.er {
+    position: absolute;
+    bottom: -17px;
+    right: 56px;
+}
+.gr span.e{
+	right: 100px;
+	bottom:-19px;
+}
+.bdr {
+    border-bottom: 3px solid #333;
+	    margin: 0 0 10px;
+		padding:0 0 10px;
+}
+
+label.checkbox-inline.posab {
+    position: absolute;
+    left: 44px;
+    top: 68px;
+	z-index:9;
+}
+label.checkbox-inline.posab2 {
+    position: absolute;
+            right: 9px;
+    bottom: 61px;
+	z-index:9;
+}
+label.checkbox-inline.posab3 {
+    position: absolute;
+    right: 3px;
+    top: 41px;
+	z-index:9;
+}
+label.checkbox-inline.posab4 {
+    position: absolute;
+    bottom: 59px;
+    left: 63px;
+	z-index:9;
+}
+label.checkbox-inline.posab5 {
+    position: absolute;
+    left: 49px;
+    top: 37px;
+	z-index:9;
+}
+label.checkbox-inline.posab6 {
+    position: absolute;
+    right: 11px;
+    bottom: 62px;
+	z-index:9;
+}
+label.checkbox-inline.posab7 {
+    position: absolute;
+    right: 4px;
+    top: 41px;
+}
+label.checkbox-inline.posab8 {
+    position: absolute;
+    bottom: 54px;
+    left: 42px;
+}
+.form-group.ex.chl.su .lo {
+    right: 68px;
+}
+.form-group.ex.chl.su .mo {
+    right: 15px;
+}
+.bi.chl span.a {
+    left: 46px;
+}
+.bi.chl span.b {
+    left: 105px;
+}
+.bi.chl span.e {
+    left: 174px;
+	text-transform:uppercase;
+}
+.bi span.lo {
+
+    right: 142px;
+}
+.bi span.mo{
+	    right: 54px;
+}
+span.vl {
+    position: absolute;
+    bottom: -16px;
+    right: 30px;
+}
+.form-group.vlm .form-control {
+    max-width: 70px;
+}
+span.dm {
+    position: absolute;
+    bottom: -16px;
+    right: 28px;
+}
+span.om {
+    position: absolute;
+    right: -5px;
+	    bottom: -16px;
+}
+span.mon {
+    position: absolute;
+    bottom: -16px;
+    right: 46px;
+}
+.gi.bi span.lo {
+    right: 123px;
+}
+span.chut {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -18px;
+    right: 124px;
+}
+.smm.frm-in.sm .form-control {
+    max-width: 60px;
+}
+.smm .smn span.a {
+    left: 22px;
+}
+.smm span.chut{
+	left:89px;
+}
+.smm .smn span.e {
+    right: 27px;
+}
+.cl .form-control{
+	max-width:55px !important;
+}
+.smm.frm-in.sm h3 {
+    font-size: 15px;
+}
+.form-group.ex.smn.grn .a {
+    left: 67px;
+}
+.grn span.chut {
+    right: 86px;
+}
+.grn.smn span.e {
+    right: 20px;
+}
+.form-group.ex.smn.gl .a {
+    left: 78px;
+}
+.zz span.b {
+
+    right: 30px;
+}
+.form-group.ex.xx .a {
+    left: 30px;
+}
+.form-group.gd .form-control {
+    max-width: 70px;
+}
+.ff .mo{
+	right:92px;
+}
+.zx span.a{
+	left:30px;
+}
+.zx span.b{
+	    right: 30px;
+}
+.ll span.chut {
+    right: 59px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

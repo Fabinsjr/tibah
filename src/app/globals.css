@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 230, 230, 230;
+  --background-end-rgb: 255, 255, 255;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.text-balance {
+  text-wrap: balance;
+  -webkit-text-wrap: balance;
+  -moz-text-wrap: balance;
+}
+.bg-pattern {
+  background-image: url("/11.jpg");
+  background-repeat: repeat-x;
+  background-size: 1000px;
+  background-color: rgb(255, 255, 255);
+}
+.bg-productPattern {
+  background-color: #0a132e;
+  background-image: url("/bgpattern.png");
+  background-image: url("/bgpattern.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+.card:nth-child(2n) {
+  transform: translateY(2rem);
+}
+.bg-bg1 {
+  background: rgb(15 23 42) url("/bg1.webp") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-bg2 {
+  background: rgb(15 23 42) url("/bg2.webp") no-repeat;
+  background-size: cover;
+}
+.bg-bg3 {
+  background: rgb(15 23 42) url("/bg3.webp") no-repeat;
+  background-size: cover;
+}
+.bg-bgabout {
+  background: rgb(15 23 42) url("/bgabout.jpeg") no-repeat;
+  background-size: cover;
+}
+.scroll-left {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.scroll-left p {
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  /* Apply animation to this element */
+  -moz-animation: scroll-left 25s linear infinite;
+  -webkit-animation: scroll-left 25s linear infinite;
+  animation: scroll-left 25s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes scroll-left {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%); /* Browser bug fix */
+    -webkit-transform: translateX(100%); /* Browser bug fix */
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%); /* Browser bug fix */
+    -webkit-transform: translateX(-100%); /* Browser bug fix */
+    transform: translateX(-100%);
+  }
+}
