@@ -79,9 +79,9 @@ const Contact = () => {
                 type="text"
                 placeholder=""
               />
-              <p className="text-gray-600 text-xs italic">
+              {/* <p className="text-gray-600 text-xs italic">
                 Please fill out this field.
-              </p>
+              </p> */}
             </div>
             <div className="w-full md:w-1/2 px-3">
               <label
@@ -112,9 +112,9 @@ const Contact = () => {
                 type="email"
                 placeholder=""
               />
-              <p className="text-gray-600 text-xs italic">
+              {/* <p className="text-gray-600 text-xs italic">
                 Please fill out this field.
-              </p>
+              </p> */}
 
               <label
                 className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
@@ -128,9 +128,9 @@ const Contact = () => {
                 type="text"
                 placeholder=""
               />
-              <p className="text-gray-600 text-xs italic">
+              {/* <p className="text-gray-600 text-xs italic">
                 Please fill out this field.
-              </p>
+              </p> */}
 
               <label
                 className="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
@@ -143,9 +143,9 @@ const Contact = () => {
                 id="grid-password"
                 placeholder=""
               />
-              <p className="text-gray-600 text-xs italic">
+              {/* <p className="text-gray-600 text-xs italic">
                 Please fill out this field.
-              </p>
+              </p> */}
               <div className="flex justify-center">
                 <button className="bg-primary hover:bg-blue-700 text-slate-700 font-bold py-2 px-4 rounded">
                   Send
