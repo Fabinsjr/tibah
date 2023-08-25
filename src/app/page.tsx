@@ -6,7 +6,7 @@ import type { WithContext, Organization } from "schema-dts";
 const jsonLd: WithContext<Organization> = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Emirates AC Industry",
+  name: "Tibah",
   url: "https://emirateac.com",
   logo: "https://emirateac.com/logo.png",
   sameAs: [
