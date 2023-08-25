@@ -188,17 +188,43 @@ const HighLight = () => {
       <div className="max-w-7xl w-full mx-auto">
         <div className="flex flex-col md:flex-row-reverse mt-12 justify-between gap-8 items-start">
           <Image
-            src="/224.png"
+            src="/DCL.png"
             alt="Image"
             width={712}
             height={906}
             className="rounded-md aspect-[712/906] w-auto object-contain h-full max-h-[500px]"
+            style={{alignSelf:"center"}}
           />
+          <Image
+            src="/donparklogo.svg"
+            alt="Image"
+            width={100}
+            height={150}
+            className="rounded-md aspect-[712/906] w-auto object-contain h-full max-h-[500px]"
+            style={{alignSelf:"center"}}
+          />
+          <Image
+            src="/Ductmate.png"
+            alt="Image"
+            width={712}
+            height={906}
+            className="rounded-md aspect-[712/906] w-auto object-contain h-full max-h-[500px]"
+            style={{alignSelf:"center"}}
+          />
+          <Image
+            src="/imperial2.png"
+            alt="Image"
+            width={712}
+            height={906}
+            className="rounded-md aspect-[712/906] w-auto object-contain h-full max-h-[500px]"
+            style={{alignSelf:"center"}}
+          />
+          
 
           <div className="flex flex-col gap-8 h-full">
             <span className="text-slate-850 font-bold text-xl md:text-4l text-balance xl:w-2/3"
             style={{color:"white"}}>
-              Our Distributors</span>
+              Proud Distributors of</span>
 {/* 
             <h2 className="text-white font-bold text-4xl md:text-5xl text-balance xl:w-2/3">
               Crafting Custom Sheets to Fit Your Vision
