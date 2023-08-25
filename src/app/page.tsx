@@ -44,10 +44,10 @@ const jsonLd: WithContext<Organization> = {
 const Hero = () => {
   return (
     <section className="pt-28 h-[100vh] min-h-[600px] flex flex-col justify-center gap-10 w-full text-white bg-bg1 bg-slate-800">
-      <p className="text-center text-xl font-light">
+      {/* <p className="text-center text-xl font-light">
         Transforming Metal into Brilliance
-      </p>
-      <h2 className="text-center text-4xl md:text-5xl font-bold text-balance max-w-5xl mx-auto capitalize"
+      </p> */}
+      <h2 className="text-center text-4xl md:text-5xl font-bold text-balance max-w-5xl mx-auto capitalize bg-white"
       style={{color:"black"}}>
         Your One Stop<span className="text-primary"
          style={{color:"black"}}> Shop</span> For
