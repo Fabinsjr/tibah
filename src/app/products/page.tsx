@@ -6,8 +6,10 @@ const Hero = () => {
   return (
     <section className="pt-28 h-[80vh] min-h-[800px] flex flex-col justify-center gap-10 w-full text-white bg-slate-900 bg-bg2 px-6">
       <p className="w-full max-w-7xl mx-auto text-xl font-light">Products</p>
-      <h1 className=" text-5xl md:text-7xl font-bold text-balance max-w-7xl mx-auto capitalize">
-        Explore our <span className="text-primary">diverse range</span> of
+      <h1 className=" text-5xl md:text-7xl font-bold text-balance max-w-7xl mx-auto capitalize"
+      style={{color:"black"}}>
+        Explore our <span className="text-primary"
+        style={{color:"white"}}>diverse range</span> of
         cutting-edge products
       </h1>
       <div className="w-full max-w-7xl mx-auto">

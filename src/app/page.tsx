@@ -49,7 +49,8 @@ const Hero = () => {
       </p>
       <h2 className="text-center text-4xl md:text-5xl font-bold text-balance max-w-5xl mx-auto capitalize"
       style={{color:"black"}}>
-        Your One Stop<span className="text-primary"> Shop</span> For
+        Your One Stop<span className="text-primary"
+         style={{color:"white"}}> Shop</span> For
         HVAC Equipments,Parts and Products.
       </h2>
       <div className="flex flex-col sm:flex-row text-center justify-center gap-8 mt-8 mx-5">
