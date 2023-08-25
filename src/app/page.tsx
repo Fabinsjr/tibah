@@ -47,7 +47,8 @@ const Hero = () => {
       <p className="text-center text-xl font-light">
         Transforming Metal into Brilliance
       </p>
-      <h2 className="text-center text-4xl md:text-5xl font-bold text-balance max-w-5xl mx-auto capitalize">
+      <h2 className="text-center text-4xl md:text-5xl font-bold text-balance max-w-5xl mx-auto capitalize"
+      style={{color:"black"}}>
         Your One Stop<span className="text-primary"> Shop</span> For
         HVAC Equipments,Parts and Products.
       </h2>

@@ -45,12 +45,12 @@ body {
   transform: translateY(2rem);
 }
 .bg-bg1 {
-  background: rgb(15 23 42) url("/bg1.webp") no-repeat;
+  background: rgb(15 23 42) url("/firstimage.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .bg-bg2 {
-  background: rgb(15 23 42) url("/bg2.webp") no-repeat;
+  background: rgb(15 23 42) url("/2img.jpg") no-repeat;
   background-size: cover;
 }
 .bg-bg3 {
