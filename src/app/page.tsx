@@ -77,14 +77,14 @@ const Content = () => {
         <h2 className="text-slate-950 font-bold text-5xl md:text-7l text-balance xl:w-2/3 ">
           Ask Us About Our Custom Sheet Metal Services for Ductwork
         </h2>
-        <div className="flex flex-col lg:flex-row mt-12 justify-between items-center gap-8">
+        {/* <div className="flex flex-col lg:flex-row mt-12 justify-between items-center gap-8">
           <Image
             src="/website 1.jpg"
             alt="Image"
             width={960}
             height={550}
             className="rounded-md aspect-[16/10] lg:max-w-2xl object-cover h-auto flex-1"
-          />
+          /> */}
           
           <div className="flex flex-col gap-5 h-full lg:w-1/2">
             <p className="max-w-prose text-lg ">
@@ -120,7 +120,7 @@ const Content = () => {
             </Link>
           </div>
         </div>   
-      </div>
+      {/* </div> */}
     </section>
   );
 };
@@ -203,6 +203,7 @@ const HighLight = () => {
             className="rounded-md aspect-[712/906] w-auto object-contain h-full max-h-[500px]"
             style={{alignSelf:"center"}}
           />
+          <div className="flex flex-col md:flex-row-reverse mt-12 justify-between gap-8 items-start">
           <Image
             src="/Ductmate.png"
             alt="Image"
@@ -219,7 +220,15 @@ const HighLight = () => {
             className="rounded-md aspect-[712/906] w-auto object-contain h-full max-h-[500px]"
             style={{alignSelf:"center"}}
           />
-          
+          <Image
+            src="/tempco.png"
+            alt="Image"
+            width={712}
+            height={906}
+            className="rounded-md aspect-[712/906] w-auto object-contain h-full max-h-[500px]"
+            style={{alignSelf:"center"}}
+          />
+          </div>
 
           <div className="flex flex-col gap-8 h-full">
             <span className="text-slate-850 font-bold text-xl md:text-4l text-balance xl:w-2/3"
